@@ -1,0 +1,9 @@
+Things I needed to change(during troubleshooting) to get code to work:
+
+1) need to decrement size after deleting node
+2) need to update curr to curr -> next in the delete method otherwise list just stays stuck
+3) needed to use out_of_range exception
+4) need to define constructors for node class
+5) needed to explicitly define NULL for some inputs to nodes
+6) need to have getsize be a const method.
+7) curr->data can be a T& reference.
